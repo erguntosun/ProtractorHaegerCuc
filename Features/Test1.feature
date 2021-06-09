@@ -6,8 +6,8 @@ Background: Launch URL
 Scenario: Haeger web page check
 
 When I click on Services
-And I click on Team
-And I click on Kultur
-And I click on Projekte
-And I click on jobs
-And I click on Kontakt
+Then I click on Team
+Then I click on Kultur
+Then I click on Projekte
+Then I click on jobs
+Then I click on Kontakt

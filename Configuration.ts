@@ -3,6 +3,7 @@ import { Config, Capabilities } from "protractor";
 
 export let config: Config = {
     directConnect: true,
+    baseUrl: "https://www.haeger-consulting.de/",
     framework: 'custom',
     frameworkPath: require.resolve('protractor-cucumber-framework'),
 
@@ -13,7 +14,16 @@ export let config: Config = {
     specs: ['../Features/Test1.feature'],
     
     cucumberOpts: {
-        require: 'Features/Step_Definitions/StepDef.js',
-        
-    }
+        require:[ 'Features/StepDef.ts',
+        'Features/Step_Definitions/StepDef.js',
+        'JSFiles/Features/StepDef.js',
+        'Features/*.StepDef.ts',
+    ]
+   
+    },
+    //onPrepare(){
+      //  require('ts-node').register({
+    //        project: require('path').join(__dirname,'./tsconfig.json')
+    //    });
+    //}
 };
