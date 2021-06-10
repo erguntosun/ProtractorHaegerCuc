@@ -14,10 +14,11 @@ export let config: Config = {
     specs: ['../Features/Test1.feature'],
     
     cucumberOpts: {
-        require:[ 'Features/StepDef.ts',
-        'Features/Step_Definitions/StepDef.js',
-        'JSFiles/Features/StepDef.js',
-        'Features/*.StepDef.ts',
+         require:[ 
+             //'Features/StepDef.ts',
+        // 'Features/Step_Definitions/StepDef.js',
+        // 'JSFiles/Features/StepDef.js',
+        'Features/StepDef.js',
     ]
    
     },

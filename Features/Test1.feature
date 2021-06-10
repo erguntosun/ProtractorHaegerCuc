@@ -1,6 +1,6 @@
 Feature: Haeger web page
 
-Background: Launch URL
+//Background: Launch URL
     Given I launch the url "https://www.haeger-consulting.de/"
 
 Scenario: Haeger web page check
