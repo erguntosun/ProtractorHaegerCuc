@@ -6,6 +6,8 @@
   
   "scripts": {
     "test": "protractor JSFiles/Configuration.js",
+     "start": "node node_modules/protractor/bin/webdriver-manager",
+    "tsc": "node node_modules/typescript/bin/tsc",
     "pretest": "tsc",
     "protractor": "./node_modules/protractor/built/cli.js",
     "webdriver-update": "./node_modules/.bin/webdriver-manager update"
