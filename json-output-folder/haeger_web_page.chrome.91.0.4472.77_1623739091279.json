@@ -1,0 +1,146 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Haeger web page",
+    "line": 1,
+    "id": "haeger-web-page",
+    "tags": [],
+    "uri": "Features\\Test1.feature",
+    "elements": [
+      {
+        "id": "haeger-web-page;haeger-web-page-check",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Haeger web page check",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Features\\StepDef.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I launch the url \"https://www.haeger-consulting.de/\"",
+            "match": {
+              "location": "Features\\StepDef.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3773000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on Services",
+            "match": {
+              "location": "Features\\StepDef.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 145000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I click on Team",
+            "match": {
+              "location": "Features\\StepDef.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I click on Kultur",
+            "match": {
+              "location": "Features\\StepDef.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click on Projekte",
+            "match": {
+              "location": "Features\\StepDef.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I click on jobs",
+            "match": {
+              "location": "Features\\StepDef.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I click on Kontakt",
+            "match": {
+              "location": "Features\\StepDef.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2277000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "91.0.4472.77"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
