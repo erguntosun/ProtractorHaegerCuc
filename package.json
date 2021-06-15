@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Haeger Web page",
   "main": "index.js",
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "protractor JSFiles/Configuration.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
   },
   "author": "Ergun Tosun",
   "license": "ISC",
