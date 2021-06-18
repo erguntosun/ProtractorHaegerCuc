@@ -130,6 +130,17 @@
           }
         ]
       }
-    ]
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "91.0.4472.106"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
   }
 ]
